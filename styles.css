@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background: url(img/image2.jpg);
+    background-size: cover;
+    height: 630px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.container img{
+    width: 120%;
+}
+.container .cloud1{
+    position: absolute;
+    top: 0;
+    opacity: .5;
+    animation: clodeOne infinite 30s linear;
+}
+.container .cloud2{
+    position: absolute;
+    top: 2%;
+    opacity: .5;
+    animation: clodeTwo infinite 30s linear;
+}
+.container .cloud3{
+    position: absolute;
+    top: 3%;
+    opacity: .8;
+    animation: clodeTwo infinite 30s linear;
+}.container .cloud4{
+    position: absolute;
+    opacity: .4;
+    top:1%;
+    animation: clodeTwo infinite 30s linear;
+}
+
+@keyframes clodeOne{
+
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}
+
+@keyframes clodeTwo{
+
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}
+
+@keyframes clodeThree{
+
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}
+
+@keyframes clodeFour{
+
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}
